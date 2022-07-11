@@ -1,0 +1,6 @@
+.sidebar {
+  border-radius: var(--main-radius);
+  border-radius: var(--main-padding);
+  background: #18ffff;
+  grid-area: sidebar;
+}

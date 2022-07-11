@@ -1,0 +1,16 @@
+nav {
+  display: flex;
+  justify-content: center;
+  padding: var(--main-padding);
+  border-bottom-left-radius: var(--main-radius);
+  border-bottom-right-radius: var(--main-radius);
+  background: var(--main-background-color);
+  grid-column: 2/12;
+  max-height: 26px;
+}
+
+nav > h1 {
+  color: var(--main-font-color);
+  font-family: 'Splash';
+  color: white;
+}

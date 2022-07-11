@@ -1,0 +1,33 @@
+main {
+  background: var(--main-background-color);
+  display: flex;
+  position: relative;
+  border-radius: var(--main-radius);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+  justify-content: space-around;
+  grid-column: 2/12;
+  grid-row: span 24;
+}
+
+.animation-container {
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: var(--main-padding);
+  border-radius: var(--main-radius);
+}
+
+.unit:hover .square {
+  animation-play-state: paused;
+}
+
+.code-showcase {
+  width: 50%;
+  padding: var(--main-padding);
+  border-radius: var(--main-radius);
+}

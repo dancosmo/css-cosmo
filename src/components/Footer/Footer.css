@@ -1,0 +1,8 @@
+footer {
+  border-top-left-radius: var(--main-radius);
+  border-top-right-radius: var(--main-radius);
+  padding: var(--main-padding);
+  background: var(--main-background-color);
+  grid-column: 2/12;
+  color: white;
+}
