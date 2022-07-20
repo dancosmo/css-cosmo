@@ -16,14 +16,11 @@ main {
 .animation-container {
   width: 50%;
   display: flex;
+  flex-direction: column;
   align-items: center;
-  justify-content: center;
+  justify-content: space-evenly;
   padding: var(--main-padding);
   border-radius: var(--main-radius);
-}
-
-.unit:hover .square {
-  animation-play-state: paused;
 }
 
 .code-showcase {

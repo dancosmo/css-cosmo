@@ -1,0 +1,50 @@
+.control {
+  width: 100px;
+  display: grid;
+  background-color: #11202c;
+  border: 1px solid;
+  border-color: #c62368;
+  color: var(--main-color);
+  gap: var(--main-padding);
+  padding: var(--main-padding);
+  border-radius: var(--main-radius);
+  font-family: var(--main-font-family);
+  grid-template-areas:
+    'name name'
+    'minus plus';
+}
+
+.name {
+  justify-self: center;
+  grid-area: name;
+  font-size: var(--main-font-size);
+  font-weight: 600;
+}
+
+.minus {
+  background-color: #11202c;
+  border-color: #c62368;
+  color: var(--main-color);
+  padding: var(--main-padding);
+  font-family: var(--main-font-family);
+  border-radius: var(--main-radius);
+  grid-area: minus;
+}
+
+.minus:hover {
+  cursor: pointer;
+}
+
+.plus {
+  background-color: #11202c;
+  border-color: #c62368;
+  color: var(--main-color);
+  padding: var(--main-padding);
+  font-family: var(--main-font-family);
+  border-radius: var(--main-radius);
+  grid-area: plus;
+}
+
+.plus:hover {
+  cursor: pointer;
+}
